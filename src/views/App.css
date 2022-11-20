@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+}
+
+.header {
+    background-color: #f57b51;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+}
+
+.header .header-titos-market {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-titos-market .menu {
+    margin-left: 25px;
+}
+
+.header .header-titos-market .menu .item-menu {
+    text-decoration: none;
+    color: #222;
+    background-color: #F6EEDF;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header .header-titos-market .operador {
+    position: absolute;
+    right: 15px;
+}
+
+.header .header-titos-market .operador span {
+    font-weight: 300;
+}
+
+main .cupom-produto {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+}
+
+main .cupom-produto .cupom-fiscal {
+    width: 65%;
+    height: 565px;
+    border: 2px solid #ddd;
+}
+
+main .cupom-produto .imagem-produto {
+    width: 34%;
+    height: 565px;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .cupom-produto .imagem-produto #produto-img {
+    height: 350px;
+}
+
+main .info-codigo {
+    background-color: #f57b51;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .info-codigo .input-codigo {
+    font-size: 25px;
+    padding: 7px 15px;
+    border: 2px solid #ccc;
+    width: 400px;
+}
+
+
+.img-referencia {
+    width: 200px;
+    height: 200px;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+table{
+    margin: 20px auto;
+
+}
+.info-cadastro {
+    background-color: #f57b51;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-cadastro .input-cadastro {
+
+    font-size: 15px;
+    padding: 7px 7px;
+    border: 2px solid #ccc;
+    width: 200px;
+
+}
+
+button {
+    font-size: 15px;
+    padding: 7px 7px;
+    border: 2px solid #ccc;
+    width: 200px;
+    cursor: pointer;
+}
